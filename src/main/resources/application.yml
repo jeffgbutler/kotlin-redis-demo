@@ -1,0 +1,8 @@
+info:
+  app:
+    name: Kotlin Payment Service
+
+management:
+  endpoint:
+    health:
+      show-details: always

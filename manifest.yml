@@ -1,0 +1,8 @@
+applications:
+  - name: KotlinRedisDemo-1.1
+    path: build/libs/kotlin-redis-demo-0.0.1-SNAPSHOT.jar
+    random-route: true
+    env:
+      JBP_CONFIG_OPEN_JDK_JRE: '{jre: {version: 11.+}}'
+    services:
+      - jgbredis
